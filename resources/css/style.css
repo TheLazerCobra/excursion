@@ -1,9 +1,9 @@
 body {
   background-color: black;
   text-align: center;
-
 }
 
+    /* Text */
 h1 {
   color: white;
   font-family: verdana;
@@ -24,17 +24,20 @@ p {
   color: gray;
 }
 
+#copyright {
+  text-align: right;
+  padding-right: 5px;
+}
+
+    /* links */
 a {
   color: aquamarine;
   font-size: 16px;
   font-family: verdana;
 }
 
+  /* images */
 img {
-  padding-top: 20px;
-}
-
-#copyright {
-  text-align: right;
-  padding-right: 5px;
+  display: block;
+  margin: auto;
 }
